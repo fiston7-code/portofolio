@@ -139,11 +139,15 @@ body {
     font-weight: 600;
     color: var(--text-primary);
     overflow: hidden;
-    transition: 0.3s;
+    transition: transform 0.3s ease;
     a {
         text-decoration: none;
         color: var(--text-primary);
     }
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
 }
 
 .cta-button::after {
